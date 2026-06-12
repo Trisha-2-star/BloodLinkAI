@@ -1,0 +1,79 @@
+body{
+    text-align:center;
+    font-family:Arial, sans-serif;
+    padding:30px;
+    background:#f5f7fa;
+}
+
+/* Heading */
+h1{
+    color:#d62828;
+}
+
+h2{
+    margin-top:25px;
+}
+
+/* Inputs */
+input,select{
+    padding:10px;
+    width:250px;
+    margin:10px;
+    border-radius:5px;
+    border:1px solid lightgray;
+    outline:none;
+}
+
+/* Button */
+button{
+    background:#d62828;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:5px;
+    cursor:pointer;
+    margin-top:10px;
+}
+
+button:hover{
+    transform:scale(1.05);
+}
+
+/* Result section */
+#result{
+    margin-top:30px;
+}
+
+/* Donor cards */
+#result div{
+    background:white;
+    width:300px;
+    margin:15px auto;
+    padding:15px;
+    border-radius:10px;
+    box-shadow:0 0 10px lightgray;
+}
+
+/* Dashboard card */
+.dashboard{
+    background:white;
+    width:300px;
+    margin:20px auto;
+    padding:15px;
+    border-radius:10px;
+    box-shadow:0 0 10px lightgray;
+}
+
+/* General spacing */
+div{
+    margin:10px;
+}
+#chatResult{
+margin-top:15px;
+padding:10px;
+background:white;
+width:300px;
+margin-left:auto;
+margin-right:auto;
+border-radius:10px;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>BloodLink AI</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<h1>BloodLink AI</h1>
+
+<h2>Patient Request Form</h2>
+
+<input
+id="patient"
+placeholder="Patient Name">
+
+<br><br>
+
+<select id="blood">
+
+<option>Select Blood Group</option>
+<option>O+</option>
+<option>O-</option>
+<option>A+</option>
+<option>B+</option>
+<option>AB+</option>
+
+</select>
+
+<br><br>
+
+<input
+id="city"
+placeholder="City">
+
+<br><br>
+
+<select id="emergency">
+
+<option>Low</option>
+<option>Medium</option>
+<option>High</option>
+
+</select>
+
+<br><br>
+
+<button onclick="findDonor()">
+
+Find Donor
+
+</button>
+
+<h2>Matching Donors</h2>
+
+<div id="result"></div>
+
+<h2>Dashboard</h2>
+
+<div class="dashboard">
+
+<p>Active Requests: 12</p>
+<p>Available Donors: 150</p>
+<p>Emergency Cases: 5</p>
+<p>Success Rate: 90%</p>
+</div>
+<h2>AI Assistant</h2>
+
+<input type="text" id="userMessage" placeholder="Ask me anything">
+<button onclick="chatBot()">Send</button>
+
+<div id="chatResult"></div>
+
+
+
+<script src="donors.js"></script>
+<script src="script.js"></script>
+
+</body>
+
+</html>
